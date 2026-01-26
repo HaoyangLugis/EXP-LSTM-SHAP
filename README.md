@@ -89,14 +89,13 @@ from src import ExpHydroLSTM
 # Initialize model
 model = ExpHydroLSTM(n_regions=9)
 
-# Train and predict
+# EXP-Hydro Train and predict
 results = model.run_simulation(
     train_period=('1980','2000'),
     test_period=('2000','2010')
 )
 
 # SHAP analysis
-shap_results = model.explain_errors()
 Outputs
 Corrected runoff simulations 
 SHAP feature importance rankings
