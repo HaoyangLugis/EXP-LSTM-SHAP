@@ -98,7 +98,7 @@ results = model.run_simulation(
 # SHAP analysis
 shap_results = model.explain_errors()
 Outputs
-Corrected runoff simulations (NSE improved from 0.14 to 0.38)
+Corrected runoff simulations 
 SHAP feature importance rankings
 Regional error analysis plots
 Cite
